@@ -21,18 +21,45 @@
         </nav>
 
     </header>
-        <main>
-            <section id="articulos">
-                <article>   
-                  
-                </article>
-                
-            </section>
-        </main>
-    <footer>
+        <form action="">
+            <fieldset>
+                <label for="nombre">
+                    <span>Nombre</span>
+                    <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+                </label> <br>
+                <label for="correo">
+                    <span>Correo electrónico</span>
+                    <input type="email" name="correo" id="correo" autocomplete="email" required>
+                </label> <br>
+                <label for="pais">
+                    <span>País del que nos contactas</span>
+                    <input type="text" name="pais" id="pais" autocomplete="country" required>
+                </label> <br>
+                <label for="cp">
+                    <span>Número de teléfono</span>
+                    <input type="tel" name="telefono" id="telefono" autocomplete="tel" maxlength="9" required>
+                </label> <br>
+                <label for="natural">
+                    <span>natural</span>
+                    <input type="radio" name="razon social" value="natural">
+                </label>
+                <label for="juridica">
+                    <span>jurídica</span>
+                    <input type="radio" name="razon social" value="particular">
+                </label>
+                <input type="reset" value="Limpiar formulario">
+                <input type="submit">
+            </fieldset>
+            
+        </form>
+    <footer>  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12534.18483158091!2d-0.6962536!3d38.2436362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b74dd46f5ced%3A0x4847e1da0b36df2d!2sManufacturas%20Godela!5e0!3m2!1ses-419!2ses!4v1679678355794!5m2!1ses-419!2ses" 
+        width="600" height="450" style="border:0;" allowfullscreen="" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
         <figure>
             <img src="../multimedia/Logo godela.png"
-                 alt="logo"
+                 alt="Manufacturas Godela, todo tipo de adornos para el calzado y marroquinería"
                  tittle="logo"
                  />
             <figcaption>965 49 45 40</figcaption>     
